@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stock-raid-client/static/css/main.407e3dad.chunk.css",
+    "main.js": "/stock-raid-client/static/js/main.43cb3293.chunk.js",
+    "main.js.map": "/stock-raid-client/static/js/main.43cb3293.chunk.js.map",
+    "runtime-main.js": "/stock-raid-client/static/js/runtime-main.be47ff8f.js",
+    "runtime-main.js.map": "/stock-raid-client/static/js/runtime-main.be47ff8f.js.map",
+    "static/js/2.65d1c855.chunk.js": "/stock-raid-client/static/js/2.65d1c855.chunk.js",
+    "static/js/2.65d1c855.chunk.js.map": "/stock-raid-client/static/js/2.65d1c855.chunk.js.map",
+    "index.html": "/stock-raid-client/index.html",
+    "precache-manifest.80a640a780ace78937d7bd14daf5183a.js": "/stock-raid-client/precache-manifest.80a640a780ace78937d7bd14daf5183a.js",
+    "service-worker.js": "/stock-raid-client/service-worker.js",
+    "static/css/main.407e3dad.chunk.css.map": "/stock-raid-client/static/css/main.407e3dad.chunk.css.map",
+    "static/js/2.65d1c855.chunk.js.LICENSE.txt": "/stock-raid-client/static/js/2.65d1c855.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/stock-raid-client/static/media/pexels-paul-ijsendoorn-1181179.76ed3f52.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be47ff8f.js",
+    "static/js/2.65d1c855.chunk.js",
+    "static/css/main.407e3dad.chunk.css",
+    "static/js/main.43cb3293.chunk.js"
+  ]
+}
