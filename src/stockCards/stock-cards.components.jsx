@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react';
 import AllStocksContext from '../contexts/stock-detail.contexts';
-import BuyStocks from './buy-stocks.components';
+import BuyStocks from '../stockComponents/buy-stocks.components';
 import FormInput from '../form-input/form-input.component';
-import CustomButton from '../custom-button/custom-button.component';
+import CustomButton from '../helpers/custom-button/custom-button.component';
 import './stock-cards.styles.css';
 import '../App.css'
 

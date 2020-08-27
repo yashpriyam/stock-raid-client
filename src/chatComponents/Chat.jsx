@@ -4,7 +4,7 @@ import "../App.css";
 import UsersList from "./UsersList";
 import MessageBox from "./MessageBox";
 import FormInput from '../form-input/form-input.component';
-import CustomButton from "../custom-button/custom-button.component";
+import CustomButton from "../helpers/custom-button/custom-button.component";
 
 // Use for remote connections
 const configuration = {

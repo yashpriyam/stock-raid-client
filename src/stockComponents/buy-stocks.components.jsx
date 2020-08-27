@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import CustomButton from '../custom-button/custom-button.component';
-import UserDetailContext from '../contexts/user-detail.contexts';
+import CustomButton from '../helpers/custom-button/custom-button.component';
+import UserDetailContext from '../helpers/contexts/user-detail.contexts';
 
 
 const BuyStocks = (props) => {

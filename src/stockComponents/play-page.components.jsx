@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext, createContext } from 'react';
-import StockCard from './stock-cards.components';
+import StockCard from '../stockCards/stock-cards.components';
 import UserStocks from '../userStocks/user-stocks.components';
 import Container from '../chatComponents/Container';
 import AllStocksContext from '../contexts/stock-detail.contexts';
@@ -7,7 +7,7 @@ import UserStocksContext from '../contexts/user-stocks.contexts';
 import UserDetailContext from '../contexts/user-detail.contexts';
 import ChannelContext from '../contexts/chat-channel.contexts';
 import ConnectionContext from '../contexts/chat-connection.contexts';
-import Wallet from '../userComponents/wallet.component';
+import Wallet from '../wallet/wallet.component';
 import FormInput from '../form-input/form-input.component';
 
 

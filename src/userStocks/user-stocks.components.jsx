@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import UserStocksContext from '../contexts/user-stocks.contexts';
 import SellStock from '../stockComponents/sell-stocks.components';
 import FormInput from '../form-input/form-input.component';
-import CustomButton from '../custom-button/custom-button.component';
+import CustomButton from '../helpers/custom-button/custom-button.component';
 import './user-stocks.styles.css';
 
 function UserStocks() {

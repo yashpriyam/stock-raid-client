@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import CustomButton from '../custom-button/custom-button.component';
+import CustomButton from '../helpers/custom-button/custom-button.component';
 import FormInput from '../form-input/form-input.component';
 import UserDetailContext from '../contexts/user-detail.contexts';
 import AllStocksContext from '../contexts/stock-detail.contexts';
