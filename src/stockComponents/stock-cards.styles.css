@@ -1,0 +1,15 @@
+.card-container {
+    width: 200px;
+    display: block;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 10px;
+    /* position: fixed; */
+
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }

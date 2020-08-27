@@ -1,0 +1,26 @@
+.header { grid-area: header; }
+.stock-card { grid-area: stockCard; }
+.wallet { grid-area: wallet; }
+.userStock-card { grid-area: userStock; }
+.userInfo { grid-area: userInfo; }
+.chat { grid-area: chat; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header header header header userInfo userInfo'
+    'chat chat chat chat stockCard stockCard stockCard stockCard stockCard stockCard wallet wallet'
+    'chat chat chat chat stockCard stockCard stockCard stockCard stockCard stockCard wallet wallet';
+  grid-gap: 5px;
+  background: url('./pexels-paul-ijsendoorn-1181179.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  padding: 10px;
+}
