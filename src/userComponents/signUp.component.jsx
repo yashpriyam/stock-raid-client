@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import FormInput from '../form-input/form-input.component';
-import CustomButton from '../custom-button/custom-button.component';
+import FormInput from '../helpers/form-input/form-input.component';
+import CustomButton from '../helpers/custom-button/custom-button.component';
 import './loginAndSignUp.styles.css';
 
 function SignUpPage() {

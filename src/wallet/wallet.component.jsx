@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react';
 import CustomButton from '../helpers/custom-button/custom-button.component';
-import FormInput from '../form-input/form-input.component';
-import UserDetailContext from '../contexts/user-detail.contexts';
-import AllStocksContext from '../contexts/stock-detail.contexts';
+import FormInput from '../helpers/form-input/form-input.component';
+// import UserDetailContext from '../contexts/user-detail.contexts';
+import AllStocksContext from '../helpers/contexts/stock-detail.contexts';
 import './wallet.styles.css';
 
 const MoneyAdder = (props) => {

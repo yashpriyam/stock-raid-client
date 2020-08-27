@@ -1,6 +1,6 @@
 import React from "react";
 import { formatRelative } from "date-fns";
-import FormInput from "../form-input/form-input.component";
+import FormInput from "../helpers/form-input/form-input.component";
 import CustomButton from "../helpers/custom-button/custom-button.component";
 const MessageBox = ({ messages, connectedTo, message, setMessage, sendMsg, name }) => {
   return (

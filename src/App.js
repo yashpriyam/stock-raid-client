@@ -3,9 +3,9 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import PlayPage from './stockComponents/play-page.components';
 // import LoginPage from './userComponents/login.component';
 // import SignUpPage from './userComponents/signUp.component';
-import UserDetailContext from './contexts/user-detail.contexts';
+import UserDetailContext from './helpers/contexts/user-detail.contexts';
 import SignInAndSignUpPage from './userComponents/loginAndSignUp.component';
-import CustomButton from './custom-button/custom-button.component';
+import CustomButton from './helpers/custom-button/custom-button.component';
 
 const App = () => {
 

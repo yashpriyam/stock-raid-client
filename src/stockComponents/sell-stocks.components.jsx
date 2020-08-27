@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import CustomButton from '../helpers/custom-button/custom-button.component';
-import UserStocksContext from '../contexts/user-stocks.contexts';
+import UserStocksContext from '../helpers/contexts/user-stocks.contexts';
 
 const SellStock = (props) => {
     
