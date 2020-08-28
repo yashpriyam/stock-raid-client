@@ -48,7 +48,9 @@ const SellStock = (props) => {
                 })
             });
             console.log('purchase handler3');
-            const stockUpdateJson = await stockUpdate.json();
+            console.log(stockUpdate);
+            
+            // const stockUpdateJson = await stockUpdate.json();
             // console.log(stockUpdateJson);
             // console.log(numberOfStocksToSell);
             

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, createContext } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import StockCard from '../stockCards/stock-cards.components';
 import UserStocks from '../userStocks/user-stocks.components';
 import Container from '../chatComponents/Container';
@@ -73,7 +73,7 @@ function PlayPage() {
         getAllStocks();
         currentUserStocks();
         getUserWallet();
-    }, []);
+    }, [userDetails.email]);
     const onAllStockSearchChange = event => {
         setAllStockSearchField(event.target.value);
     };

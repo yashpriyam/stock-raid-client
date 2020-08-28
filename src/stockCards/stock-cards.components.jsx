@@ -9,7 +9,7 @@ import '../App.css'
 function StockCard() {
     const { stock, userWalletDetails } = useContext(AllStocksContext);
     const { stockname, stocksymbol, pershareprice } = stock;
-    const [value, setValue] = useState(Number(pershareprice));
+    const value = Number(pershareprice);
     const [numberOfStocks, setNumberOfStocks] = useState('');
     const [isPurchaseAble, setIsPurchaseAble] = useState(false);
     const [currentWalletBalance, setCurrentWalletBalance] = useState('');
@@ -23,7 +23,7 @@ function StockCard() {
         setCurrentWalletBalance(userWalletDetails.walletBalance);
         setTotalCostOfPurchase(pershareprice * Number(numberOfStocks));
         if (currentWalletBalance < totalCostOfPurchase) {
-            alert(`You don\'t have enough balance in your wallet to make this transaction \n\n
+            alert(`You dont have enough balance in your wallet to make this transaction \n\n
             add ${totalCostOfPurchase - userWalletDetails.walletBalance} more to your wallet to do this transaction`);
             return;
         } else {

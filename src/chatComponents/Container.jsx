@@ -6,7 +6,8 @@ const Container = () => {
     <ConnectionConsumer>
       {({ connection, updateConnection }) => (
         <ChannelConsumer>
-          {({ channel, updateChannel }) => (
+          {({ channel, updateChannel }) => 
+            (
             <Chat
               connection={connection}
               updateConnection={updateConnection}
